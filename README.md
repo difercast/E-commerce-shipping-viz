@@ -6,6 +6,15 @@ Proyecto de visualización de datos generado con el fin de analizar y extraer la
 
 El presente proyecto se realizó utilando la herramienta *Power BI*.
 
+## Contexto
+
+Los productos electrónicos que son vendidos, previo a su envío se depositan en varios almacenes, cada producto cuenta con un nivel de importancia que puede ser bajo, medio y alto.
+
+Los productos pueden ser enviados por distinctos medios: aéreo, terreste y marítimo. Cada producto además de su precio cuenta con un descuento (si aplica) y su peso en gramos.
+
+De lado de los clientes, cada cliente cuenta con un rating y con el número de ventas realizadas con anterioridad.
+
+
 ## Dataset
 
 El dataset contiene el registro de ventas de equipos electrónicos, Contiene *10999* observaciones y 12 variables. Las variables contenidas en el dataset son:
@@ -22,3 +31,9 @@ El dataset contiene el registro de ventas de equipos electrónicos, Contiene *10
 - Discount offered
 - Weight in gms
 - Reached on time
+
+
+## Resultado
+
+El proyecto de visualización cuenta con una pestaña en donde se realiza una breve introducción a la visualización.
+
