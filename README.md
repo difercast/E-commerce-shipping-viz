@@ -37,7 +37,7 @@ El dataset contiene el registro de ventas de equipos electrónicos, Contiene *10
 
 El proyecto de visualización cuenta con una pestaña en donde se realiza una breve introducción a la visualización.
 
-![Demo Animation](images/intro.png?raw=true)
+![intro](images/intro.PNG?raw=true)
 
 en la sección del Dashboard se generó en primer lugar un conjunto de indicadores en donde se tiene el número de envíos, el precio promedio de los productos, cuántos de estos productos se entregaron a tiempo y el peso promedio.
 
@@ -49,5 +49,5 @@ Se cuenta con gráficos en donde se detalla:
 - Género de los clientes, y 
 - Número de ventas anteriores
 
-![Demo Animation](images/dashboard.png?raw=true)
+![Dashboard](images/dashboard.PNG?raw=true)
 
