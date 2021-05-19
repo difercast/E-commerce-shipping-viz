@@ -2,18 +2,17 @@
 
 ## Descripción
 
-Proyecto de visualización de datos generado con el fin de analizar y extraer las principales características y patrones generadas en las ventas de equipos electrónicos por parte de una compañia multinacional E-commerce.
+Proyecto de visualización de datos generado con el fin de analizar y extraer las principales características y patrones generados en las ventas y envíos de equipos electrónicos por parte de una compañia multinacional E-commerce.
 
-El presente proyecto se realizó utilando la herramienta *Power BI*.
+El presente proyecto se desarrolló usando *Power BI*.
 
 ## Contexto
 
 Los productos electrónicos que son vendidos, previo a su envío se depositan en varios almacenes, cada producto cuenta con un nivel de importancia que puede ser bajo, medio y alto.
 
-Los productos pueden ser enviados por distinctos medios: aéreo, terreste y marítimo. Cada producto además de su precio cuenta con un descuento (si aplica) y su peso en gramos.
+Los productos pueden ser enviados por distintos medios: aéreo, terreste y marítimo. Cada producto además de su precio cuenta con un descuento (si aplica) y su peso en gramos.
 
 De lado de los clientes, cada cliente cuenta con un rating y con el número de ventas realizadas con anterioridad.
-
 
 ## Dataset
 
@@ -32,8 +31,7 @@ El dataset contiene el registro de ventas de equipos electrónicos, Contiene *10
 - Weight in gms
 - Reached on time
 
-
-## Resultado
+## Resultados
 
 El proyecto de visualización cuenta con una pestaña en donde se realiza una breve introducción a la visualización.
 
@@ -51,3 +49,24 @@ Se cuenta con gráficos en donde se detalla:
 
 ![Dashboard](images/dashboard.PNG?raw=true)
 
+Dado que *Power BI* es una herramienta dinámica, el usuario tiene la facilidad de realizar selecciones o filtros sobre cada uno de los gráficos e indicadores presentados, con el fin de descubrir patrones o información que sea de utilidad.
+
+## Organización de archivos
+
+El repositorio se encuentra organizado de la siguiente manera:
+
+- `data/` 
+
+    Se encuentra el dataset que sirvió como insumo para le desarrollo de la visualización.
+
+- `images/` 
+    
+    Contiene las imágenes obtenidas desde la visualización.
+
+- `output/` 
+
+    Archivo pdf generado desde Power BI 
+
+- `src/` 
+
+    Contiene el archivo de Power BI (*.pbix*) con la visualización.
